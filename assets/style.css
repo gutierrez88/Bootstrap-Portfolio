@@ -66,10 +66,6 @@ body {
     max-width: 588px;
 }
 
-.navbar-toggler {
-    float: right;
-    background-color:#4aaaa5;
-}
 
 .textarea {
     height: 200px;
@@ -116,6 +112,10 @@ p {
     font-size: 1.2rem;
 }
 
+.pic {
+    width: 250px;
+}
+
 .word {
     position: relative;
     margin-bottom: 20px;
@@ -125,11 +125,30 @@ p {
     position:absolute;
     bottom: 15px;
     padding: 15px;
-    width: 100%;
+    width: 250px;
     font-weight: 200;
     line-height: 25px;
     color: #fff;
     text-align: center;
     background: #4aaaa5;
-    
 }
+
+@media (max-width: 768px) {
+    .pic {
+       max-width: 400px;
+    }
+
+    .word h3 {
+        position:absolute;
+        bottom: 15px;
+        padding: 15px;
+        max-width: 400px;
+        font-weight: 200;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+        background: #4aaaa5;
+    }
+}
+
+
