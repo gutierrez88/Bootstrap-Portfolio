@@ -1,154 +1,31 @@
 body {
     background: url("../assets/images/background.jpg");
     color: #777;
-}
-
-.row1 {
-    width: 100%;
-    background-color: #fff;
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 30px;
-    margin-right: 0;
-    margin-left: 0;
-    height: 81px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.navwi {
-    max-width: 960px;
-    padding: 0px;
-}
-
-.name {
-    width: 350px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #fff;
-    background: #4aaaa5;
-    text-align: center;
-    vertical-align: middle;
-    padding: 17px;
-}
-
-.navc {
-    color: #999;
-}
-
-.navb {
-  border-right: 1px solid #eeeeee;
+    margin: 0 0 100px; /* bottom = footer height */
 }
 
 .mainbody {
-
-    border: 1px solid #cccccc;
-    margin-bottom: 100px;
-    background-color: #fff;
-    max-width: 650px;
-    padding: 30px;
-
+    margin-top: 80px;
 }
 
-.mainheading {
-    color: #4aaaa5;
-    padding-top: 0px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 20px;
-    margin-right: 0px;
-    margin-left: 0px;
-    font-family:  Georgia, Times, "Times New Roman", serif; 
-    font-weight: 500;
-    max-width: 588px;
+img {
+    margin-right: 20px;
 }
 
-
-.textarea {
-    height: 200px;
-}
-
-.submitbutton {
-    color: #fff;
-    background: #4aaaa5;
-    border-color: #4aaaa5;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 footer {
-    padding: 30px;
-    font-size: 12px;
-    color: #fff;
-    color: #ccc;
-    text-align: center;
-    background: #666;
-    border-top: 5px solid #4aaaa5;
-    height: 50px;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     left: 0;
-    right: 0;
-    z-index: -20;
-}
-
-form {
-    padding: 0px;
-    max-width: 588px;
+    bottom: 0;
     width: 100%;
+    padding: 10px;
+    margin-top: 50px;
 }
 
-.me {
-    width: 155px;
-    height: auto;
-    float: left;
-    padding-right: 20px;
+.mainheading {
+    padding: 0px;
 }
-
-p {
-
-    line-height: 1.5;
-    font-size: 1.2rem;
-}
-
-.pic {
-    width: 250px;
-}
-
-.word {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.word h3 {
-    position:absolute;
-    bottom: 15px;
-    padding: 15px;
-    width: 250px;
-    font-weight: 200;
-    line-height: 25px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-}
-
-@media (max-width: 768px) {
-    .pic {
-       max-width: 400px;
-    }
-
-    .word h3 {
-        position:absolute;
-        bottom: 15px;
-        padding: 15px;
-        max-width: 400px;
-        font-weight: 200;
-        line-height: 20px;
-        color: #fff;
-        text-align: center;
-        background: #4aaaa5;
-    }
-}
-
-
