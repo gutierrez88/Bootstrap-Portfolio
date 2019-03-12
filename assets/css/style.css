@@ -1,0 +1,302 @@
+html, body{
+    height:100%;
+}
+
+/*---------- Navs----------*/
+#portfolio{
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#contact{
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#portfolio2{
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: black;
+    font-size: 20px;
+}
+
+#contact2{
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: black;
+    font-size: 20px;
+}
+
+.nav2 {
+    margin-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#git{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#linkedin{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#home{
+    height: 78px;
+    width: 104px;
+}
+
+#home2{
+    height: 78px;
+    width: 104px;
+}
+/*---------- Front Page----------*/
+.landingName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#name {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#title {
+    font-size: 45px;
+    color: white;
+}
+
+#down {
+    background-image: url("../images/down2.svg");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    bottom: -100px;
+    margin-left: -30px;
+    
+}
+
+#down:hover {
+    height: 100px;
+    width: 100px;
+    margin-left: -50px;
+    position:absolute;
+    bottom: -115px;
+    margin-left: -45px;
+}
+
+/*---------- About Me----------*/
+
+#aboutMeSection{
+    min-height: calc(100% - 100px);
+    background-image: linear-gradient(#5a5b61, #cfd0d1);
+    position: relative;
+}
+
+#aboutTitle {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+/*---------- Contact ----------*/
+#contactMeMain{
+    min-height: calc(100% - 190px);
+    background-color:#a8a8a8;
+}
+
+#nav {
+    background-image: linear-gradient(to bottom, #5a5b61, black);
+    height: 90px;
+    width: 100%;
+}
+
+#homeIndex{
+    height: 78px;
+    width: 104px;
+}
+
+#formContent{
+    padding-bottom: 20px;
+}
+
+#ptag{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+#wholeForm{
+    padding-top: 30px;
+}
+
+/*---------- Portfolio ----------*/
+#mainPortfolio{
+    min-height: calc(100% - 190px);
+}
+
+#projects{
+    margin-bottom: 50px;
+}
+
+/*---------- Skills Section ----------*/
+#skills{
+    color: white;
+    padding: 20px 0px 30px 0px;
+}
+
+#skillTitle {
+    text-align: center;   
+    font-size: 64px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+li {
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+
+li > img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+/*---------- Footer ----------*/
+footer {
+    background-image: linear-gradient(to top, #5a5b61, black);
+    width: 100%;
+    height: 100px;
+}
+
+#left{
+    margin: 41px 0px 0px 0px;
+}
+
+#portfolio3{
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-size: 20px;
+    padding: 0px 5px 0px 5px;
+    border-right: 1px solid white;
+}
+
+#home3{
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-size: 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+#contact3{
+    height: 60px;
+    width: 60px;
+    margin: 20px 10px 0px 10px;
+}
+
+#git3{
+    height: 60px;
+    width: 60px;
+    margin:20px 10px 0px 0px;
+    
+}
+
+#linkedin3{
+    height: 60px;
+    width: 60px;
+    margin: 20px 0px 0px  10px;
+}
+
+/*---------- Screen Orientation ----------*/
+@media screen and (orientation: landscape) {
+    .parallax {
+        background-image: url("../images/background1.jpeg");
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home2 {
+        display: none;
+    }
+
+    #me{
+        max-height: 200px;
+        width: auto;
+        border-radius: 25px;
+        padding: 2px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    #info {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .parallax {
+        background-image: url("../images/background.jpeg");
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #me{
+        max-height: 400px;
+        width: auto;
+        border-radius: 25px;
+        padding: 2px;
+        border: 1px solid black;
+        margin: 10px 0px 30px 0px;
+    }
+
+    #info {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+
+/*---------- Other ----------*/
+.clear{
+    clear: both;
+}
+   
+/* font-family: 'Quattrocento', serif;
+font-family: 'Vidaloka', serif; */

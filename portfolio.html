@@ -1,81 +1,155 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Francisco Gutierrez</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <meta charset=UTF-8>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quattrocento|Vidaloka" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Francisco Ryan Gutierrez</title>
 </head>
 
 <body>
-    
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Francisco Gutierrez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link border-right" href="index.html">About</a>
-                    <a class="nav-item nav-link border-right  active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+    <div id="nav">
+        <div class="container">
+            <div class="row">
+                <a class="col s2 offset-s2" href="./portfolio.html" id="portfolio">Portfolio</a>
+                <div class="nav2 col s4" id="links">
+                    <a href="https://github.com/gutierrez88"><img id="git"
+                            src="assets/images/iconfinder_github_253591.svg" alt="github"></a>
+                    <a href="./index.html">
+                        <img id="homeIndex" src="assets/images/logoTryWhite.png" alt="Home">
+                    </a>
+                    <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin"
+                            src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
                 </div>
+                <a class="col s2" href="./contact.html" id="contact">Contact</a>
             </div>
-        </nav>
-    
-
-    <div class="container mainbody">
-        
-        <h1 class="mainheading col-xs-12 text-lg-center p-0 mb-3">Portfolio</h1>
-
-        <div class="img-fluid float-lg-left thumbnail">
-            <a href="https://gutierrez88.github.io/Train/">
-            <img src="assets/images/eastcoast.jpg" class="pic rounded" style="max-width: 375px" alt="Word Guess">
-
-            <h3 class="caption bg-dark w-100 text-center text-white-50" style="max-width: 375px">Train Schedule</h3>
-            </a>
-        </div>
-
-        <div class="img-fluid float-lg-right thumbnail" id="triviaGame">
-            <a href="https://gutierrez88.github.io/TriviaGame/">
-                <img src="assets/images/images.jpeg" class="pic rounded" style="max-width: 375px" alt="Trivia Game">
-
-                <h3 class="caption bg-dark w-100 text-center text-white-50" style="max-width: 375px">Trivia Game</h3>
-            </a>
-        </div>
-
-        <div class="img-fluid float-lg-left thumbnail">
-            <a href="https://gutierrez88.github.io/GifTastic/">
-                <img src="assets/images/keyboard.jpg" class="pic rounded" style="max-width: 375px" alt="Rock Paper Scissors">
-
-                <h3 class="caption bg-dark w-100 text-center text-white-50" style="max-width: 375px">Giphy Search</h3>
-            </a>
-        </div>
-
-        <div class="img-fluid float-lg-right thumbnail">
-            <img src="assets/images/space.jpeg" class="pic rounded" style="max-width: 375px" alt="RPG Game">
-
-            <h3 class="caption bg-dark w-100 text-center text-white-50" style="max-width: 375px">RPG Game</h3>
-        </div>
-
-        <div class="img-fluid float-lg-left thumbnail">
-            <img src="assets/images/tech.jpg" class="pic rounded" style="max-width: 375px" alt="Info Widget">
-
-            <h3 class="caption bg-dark w-100 text-center text-white-50" style="max-width: 375px">Info Widget</h3>
         </div>
     </div>
 
-    <footer class="bg-dark text-center text-white-50">
-        Product of Francisco Gutierrez
+
+
+    <div id="mainPortfolio">
+        <div id="skills">
+            <div id="skillTitle">
+                <h2>My Projects Utilize</h2>
+            </div>
+            <div class="row">
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/css3-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder//html5-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/bootstrap-plain-wordmark.svg"></li>
+                    </ul>
+                </div>
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/github-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/postman.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/heroku-original-wordmark.svg"></li>
+                    </ul>
+                </div>
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/sequelize-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/jquery-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/express-original-wordmark.svg"></li>
+                    </ul>
+                </div>
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/ES6.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/nodejs-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/javascript-original.svg"></li>
+                    </ul>
+                </div>
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/php-original.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/react-original-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/mongodb-original-wordmark.svg"></li>
+                    </ul>
+                </div>
+                <div class="col s2 sets">
+                    <ul>
+                        <li class="tech"><img src="/assets/images/untitled folder/laravel-plain-wordmark.svg"></li>
+                        <li class="tech"><img src="/assets/images/untitled folder/mysql-original-wordmark.svg"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects">
+            <div class="center-align">
+                <h2>Projects</h2>
+            </div>
+            <div class="slider row">
+                <ul class="slides">
+                    <li>
+                        <a href="https://murmuring-fortress-51358.herokuapp.com/">
+                            <img id="projectImg" src="./assets/images/burger2.jpeg">
+                            <div class="caption center-align">
+                                <span>Devour The Burger!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://floating-wildwood-49222.herokuapp.com/">
+                            <img id="projectImg" src="./assets/images/friendFinder.jpeg">
+                            <div class="caption center-align">
+                                <span>Find Your next Best Friend!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://gutierrez88.github.io/Project-OneSelf/">
+                            <img id="projectImg" src="./assets/images/project12.jpeg">
+                            <div class="caption center-align">
+                                <span>Parents video Timer and Articale Finder!</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="row valign-wrapper">
+            <div class="col s4" id="left">
+                <a href="portfolio.html" id="portfolio3">Portfolio</a>
+                <a href="index.html" id="home3">About Me</a>
+            </div>
+            <div class="col s6 offset-s2 right-align" id="right">
+                <a href="https://github.com/gutierrez88"><img id="git3" src="assets/images/iconfinder_github_253591.svg"
+                        alt="github"></a>
+                <a href="./contact.html"><img id="contact3" src="assets/images/iconfinder_Contact_Alt_86904.png"
+                        alt="Contact Me"></a>
+                <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin3"
+                        src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/javascript/materialize.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slider();
+        });
+    </script>
 </body>
 
 </html>
