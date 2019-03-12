@@ -1,62 +1,103 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Francisco Gutierrez</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <meta charset=UTF-8>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quattrocento|Vidaloka" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Francisco Ryan Gutierrez</title>
 </head>
 
 <body>
-    <div class="row row1">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Francisco Gutierrez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link border-right" href="index.html">About</a>
-                    <a class="nav-item nav-link border-right" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+    <div id="nav">
+        <div class="container">
+            <div class="row">
+                <a class="col s2 offset-s2" href="./portfolio.html" id="portfolio">Portfolio</a>
+                <div class="nav2 col s4" id="links">
+                    <a href="https://github.com/gutierrez88"><img id="git" src="assets/images/iconfinder_github_253591.svg"
+                            alt="github"></a>
+                    <a href="./index.html">
+                        <img id="homeIndex" src="assets/images/logoTryWhite.png" alt="Home">
+                    </a>
+                    <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin"
+                            src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
+                </div>
+                <a class="col s2" href="./contact.html" id="contact">Contact</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    
+    <div id="contactMeMain">
+        <div class="container">
+            <div class="row valign-wrapper">
+                <div class="col s6" id="leftContact">
+                    <p class="center-align" id="ptag">You can either message me with the form on the right, or you can email me at contactMe@frgutierrez.com</p>
+                </div>
+                <div class="col s6" id="wholeForm">
+                    <div class="row  center-align" id="formContent">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Message</label>
+                                </div>
+                            </div>
+                                
+                            
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Send</button>
+                            
+                        </form>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
-        </nav>
+            <div class="clear"></div>
+        </div>
     </div>
+    
 
-    <div class="container mainbody">
 
-        <h1 class="mainheading col-sm-12 p-0">Contact</h1>
-
-        <form>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control w-75" id="formGroupExampleInput" placeholder="John Doe">
+    <footer>
+        <div class="row">
+            <div class="col s4" id="left">
+                <a href="portfolio.html" id="portfolio3">Portfolio</a>
+                <a href="index.html" id="home3">About Me</a>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Email</label>
-                <input type="text" class="form-control w-75" id="formGroupExampleInput2" placeholder="jonhdoe@gmail.com">
+            <div class="col s6 offset-s2 right-align" id="right">
+                <a href="https://github.com/gutierrez88"><img id="git3" src="assets/images/iconfinder_github_253591.svg"
+                        alt="github"></a>
+                <a href="./contact.html"><img id="contact3" src="assets/images/iconfinder_Contact_Alt_86904.png"
+                        alt="Contact Me"></a>
+                <a href="https://www.linkedin.com/in/gutierrezf/"><img id="linkedin3"
+                        src="assets/images/iconfinder_linkedin_252090 (1).svg" alt="Linkedin"></a>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput">Message</label>
-                <textarea class="form-control w-75" id="message" rows="5"></textarea>
-            </div>
-            <div>
-                <button type="submit" class="btn btn-dark mb-2 submitbutton">Submit</button>
-            </div>
-        </form>
-    </div>
-
-    <footer class="bg-dark text-center">
-        Product of Francisco Gutierrez
+        </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/javascript/materialize.js"></script>
 
 </body>
 
